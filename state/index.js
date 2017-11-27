@@ -19,6 +19,7 @@
         this.state = {
           editing: false
         };
+        <!-- bind passes the context -->
         this.edit = this.edit.bind(this);
         this.save = this.save.bind(this);
       }
